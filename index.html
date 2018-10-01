@@ -16,19 +16,46 @@
     </div>
     <div class="nav-container">
         <ul class="nav nav-tabs" id="mytab" role="tablist">
-            <li class="active nav-item top-navtabs">
-                <a class="nav-link" id="bout-me-tab" data-toggle="tab" href="#fahrenheit-converter">
+            <li id="top-navtabs" class="active nav-item">
+                <a class="nav-link" id="bout-me-tab" data-toggle="tab" role="tab" href="#about-me">
                     About Me</a>
             </li>
-            <li class="active nav-item top-navtabs">
-                <a class="nav-link" id="contact-info-tab" data-toggle="tab" href="#celsius-converter">
-                    Contact Information</a>
-            </li>
-            <li class="active nav-item top-navtabs">
-                <a class="nav-link" id="projects-tab" data-toggle="tab" href="#kelvin-converter">
+            <li id="top-navtabs" class="active nav-item">
+                <a class="nav-link" id="projects-tabs" data-toggle="tab" role="tab" href="#projects">
                     Projects</a>
             </li>
+            <li id="top-navtabs" class="active nav-item">
+                <a class="nav-link" id="contact-info-tab" data-toggle="tab" role="tab" href="#contact-info">
+                    Contact Information</a>
+            </li>
         </ul>
+    </div>
+    <div class="bkg">
+        <div class="tab-content">
+            <div id="about-me" class="tab-pane fade in active mt-5 rounded">
+                <p class="about-me-body">
+                    Hello world, my name is Daniel Peterson, and I am currently enrolled in
+                    <a id="basecamp-link" href="https://basecampcodingacademy.org/about" target="_blank">Base Camp Coding Academy.</a>
+                    I was born and raised in Water Valley Ms, which is where I graduated high school from. I was 8th in my graduating class with
+                    a GPA of 3.89. I was nominated to Base Camp by my teacher, Micheal Howland, who played a roll in my success
+                    in High School. I am passionate for my learning and will not stop till I reach my goals. Therefore, I
+                    am confident in what my future holds.
+                </p>
+            </div>
+            <div id="contact-info" class="tab-pane fade in active mt-5 rounded">
+                <ul class="contact-list">
+                    <li class="contact-item">
+                        <a href="https://github.com/Dannyp123">Github</a>
+                    </li>
+                    <li class="contact-item">
+                        <a href="#">Linked-In</a>
+                    </li>
+                    <li class="contact-item">
+                        <p id="email">Email:</p> dpeterson@basecampcodingacademy.org
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
