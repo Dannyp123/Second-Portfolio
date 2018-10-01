@@ -4154,21 +4154,17 @@
  }
  
  .nav-tabs {
-   border-bottom: 1px solid #f0f0f0;
- }
- 
- .nav-tabs .nav-item {
-   margin-bottom: -1px;
+   border-bottom: 1px solid #fff3f3;
  }
  
  .nav-tabs .nav-link {
-   border: 1px solid transparent;
+   border: 1px solid black;
    border-top-left-radius: 0.25rem;
    border-top-right-radius: 0.25rem;
  }
  
  .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-   border-color: #f0f0f0;
+   border-color: #fff6f6;
  }
  
  .nav-tabs .nav-link.disabled {
@@ -4180,8 +4176,8 @@
  .nav-tabs .nav-link.active,
  .nav-tabs .nav-item.show .nav-link {
    color: #222;
-   background-color: #fff;
-   border-color: #f0f0f0;
+   background-color: rgba(255, 255, 255, 0.753);
+   border-top-color: #0f6181;
  }
  
  .nav-tabs .dropdown-menu {
@@ -4196,7 +4192,7 @@
  
  .nav-pills .nav-link.active,
  .nav-pills .show > .nav-link {
-   color: #fff;
+   color: rgb(0, 0, 0);
    background-color: #158CBA;
  }
  

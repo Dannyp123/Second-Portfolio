@@ -9,7 +9,10 @@ body {
     text-align: center;
 }
 .top-header {
-    background-color: #158cba;
+    border: 6px solid #158bbab4;
+    background-color: rgba(255, 255, 255, 0.781);
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 #top-navtabs {
     border-radius: 4px;
@@ -24,7 +27,9 @@ body {
     font-size: 18pt;
 }
 #about-me {
-    background-color: rgba(255, 255, 255, 0.733);
+    border: 6px solid #158bbab4;
+    background-color: rgba(255, 255, 255, 0.781);
+    padding: 1rem;
     margin-left: 3rem;
     margin-right: 3rem;
 }
@@ -38,6 +43,8 @@ body {
     color: black;
 }
 .about-me-body {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
     font-size: 17pt;
     font-weight: bold;
     padding: 1rem;
@@ -51,14 +58,15 @@ body {
     border-top: 5px solid #158cba !important;
 }
 #contact-info {
-    background-color: rgba(255, 255, 255, 0.733);
+    border: 6px solid #158bbab4;
+    background-color: rgba(255, 255, 255, 0.781);
     margin-left: 3rem;
     margin-right: 3rem;
 }
 .contact-item {
     list-style: none;
 }
-.contact-item :hover {
+.contact-item a:hover {
     color: #000;
 }
 .contact-item a {
@@ -69,7 +77,26 @@ body {
     font-weight: normal;
     padding: 1rem;
 }
+
 #email {
     font-size: 19pt;
+    font-weight: bold;
+}
+#github {
+    font-size: 19pt;
+    font-weight: bold;
+}
+#linkedin {
+    font-size: 19pt;
+    font-weight: bold;
+}
+#languages {
+    border: 6px solid #158bbab4;
+    background-color: rgba(255, 255, 255, 0.781);
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.lang-items {
+    font-size: 16pt;
     font-weight: bold;
 }
