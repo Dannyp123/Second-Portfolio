@@ -78,6 +78,7 @@ body {
 }
 .languagesIKnow {
     list-style: none;
+    padding-left: 19rem;
 }
 .project-container {
     margin-left: -2.5rem;
