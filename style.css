@@ -4,7 +4,8 @@ body {
     background-size: cover;
 }
 #name-header {
-    font-size: 36pt;
+    font-family: "Righteous";
+    font-size: 42pt;
     text-align: center;
 }
 .top-header {
