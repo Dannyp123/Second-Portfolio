@@ -15,7 +15,9 @@
     <link rel="shortcut icon" href="/favicons/projects-favicon.png" type="shortcut icon">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js"
         defer></script>
-    <script type="text/javascript" src="/JS/handleBarsTemplates.js" defer></script>
+    <script src="/JS/data.js" defer></script>
+    <script src="/JS/handleBarsTemplates.js" defer></script>
+
 </head>
 
 <body>
@@ -51,36 +53,35 @@
             </ul>
         </div>
     </nav>
-    <section id="projectOne">
-        <script id="projectOneTemplate" type="text/x-handlebars-template">
-            <div class="entry" id="my-projects">
+    <div id="projectsTemplate"></div>
+    <script id="projects" type="text/x-handlebars-template">
+        <div class="entry" id="my-projects">
                 <ul class="container mt-5">
                     <li class="mt-4 mb-4 p-4 text-center card">
                         <p class="prject-title">
                             <h3 class="font-weight-bold">
-                                {{title}}
+                                {{project.title}}
                             </h3>
                         </p>
                         <h3>
-                            <a class="project-link" href="{{projectLink}}" target="_blank">Project Link</a>
+                            <a class="project-link" href="{{projects.projectLink}}" target="_blank">Project Link</a>
                         </h3>
                         <h3 class="text-link font-weight-bold pt-4">
                             Languages Used
                         </h3>
                         <h5>
                             <p class="project-langs pb-3">
-                                {{languages}}
+                                {{project.langs}}
                             </p>
                         </h5>
                         <h3 class="font-weight-bold text-link">Description</h3>
                         <h5>
-                            {{description}}
+                            {{project.description}}
                         </h5>
                     </li>
                 </ul>
             </div>
         </script>
-    </section>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
