@@ -1,10 +1,9 @@
 <li class="mt-4 mb-4 p-4  text-center card">
     <p class="project-title">
-        <h3 class="font-weight-bold">
-            Rental Agency</h3>
+        <h3 class="font-weight-bold">{{title}}</h3>
     </p>
     <h3>
-        <a class="project-link" href="https://github.com/Dannyp123/Daniel-Peterson-Web-Rental-Agency" target="_blank">Project
+        <a class="project-link" href="{{link}}" target="_blank">Project
             Link</a>
     </h3>
     <h3 class="text-link font-weight-bold pt-4">
@@ -12,16 +11,13 @@
     </h3>
     <h5>
         <p class="project-langs">
-            HTML, CSS, JavaScript, Bootstrap, Handlebars
+            {{langs}}
         </p>
     </h5>
     <h3 class="font-weight-bold text-link">Description</h3>
     <h5>
-        This project is the Front-end final for my programming class. Using handlebar's templates I
-        made a rental store that is like a real online one.
+        {{description}}
     </h5>
-
-
 </li>
 <li class="mt-4 mb-4 p-4 card text-center">
     <p>
@@ -194,3 +190,33 @@
     </h5>
 </li>
 </ul>
+
+
+
+<section id="projectTwo">
+    <script id="projectTwoTemplate" type="text/x-handlebars-template">
+        <ul class="container mt-5">
+                <li class="mt-4 mb-4 p-4  text-center card">
+                    <p class="project-title">
+                        <h3 class="font-weight-bold">{{title}}</h3>
+                    </p>
+                    <h3>
+                        <a class="project-link" href="{{link}}" target="_blank">Project
+                            Link</a>
+                    </h3>
+                    <h3 class="text-link font-weight-bold pt-4">
+                        Languages Used
+                    </h3>
+                    <h5>
+                        <p class="project-langs">
+                            {{langs}}
+                        </p>
+                    </h5>
+                    <h3 class="font-weight-bold text-link">Description</h3>
+                    <h5>
+                        {{description}}
+                    </h5>
+                </li>
+            </ul>
+        </script>
+</section>
