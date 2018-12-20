@@ -9,6 +9,12 @@ const PROJECTS = {
         Hopefully, I can get it pushed on a real domain name.`
         },
         {
+            title: "Blog Post",
+            projectLink: "https://github.com/Dannyp123/Blog-Post",
+            langs: "HTML, CSS, Django, Bootstrap",
+            description: `This is a project that me and a partner came together to make a blog post application. Using Django, we made the whole application. You can make a post and comment on that post or any other post.`
+        },
+        {
             title: "Tic-Tac-BOO",
             projectLink: "https://github.com/Dannyp123/Tic-Tac-Toe",
             langs: "HTML, CSS, JavaScript",
@@ -35,6 +41,12 @@ const PROJECTS = {
         made this
         to be able to be used with anyone who wants to use it. It uses the same ideas as bootstrap,
         mine has different class names`
+        },
+        {
+            title: "Playing Card Store",
+            projectLink: "https://github.com/Dannyp123/Playing-Card-Store",
+            langs: "HTML, JS, CSS, Bootstrap",
+            description: `This is a webpage that I started at home during Thanksgiving. It is a pretty simple page. I used all Bootstrap on this application. It is a online store that sells playing cards`
         },
         {
             title: "Github-Full-Project",
@@ -72,5 +84,6 @@ const PROJECTS = {
             for
             a rental fee.`
         },
+
     ]
 }
