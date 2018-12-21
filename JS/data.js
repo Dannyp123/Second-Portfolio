@@ -14,8 +14,12 @@ const PROJECTS = {
             title: "Blog Post",
             projectLink: "https://github.com/Dannyp123/Blog-Post",
             langs: "HTML, CSS, Django, Bootstrap",
-            description: `This is a project that me and a partner came together to make a blog post application. Using Django, we made the whole application. You can make a post and comment on that post or any other post.`
+            description: `This is a project that me and a partner came together to make a blog post application. Using Django, we made the whole application. You can make a post and comment on that post or any other post.`,
+            postImg: "/images/Screenshot_2018-12-21 Django Blog.png",
+            postLink: "https://github.com/Dannyp123/Blog-Post"
         },
+        
+           
         {
             title: "Tic-Tac-BOO",
             projectLink: "https://github.com/Dannyp123/Tic-Tac-Toe",
@@ -25,7 +29,7 @@ const PROJECTS = {
         and unique game pieces. Using HTML
         and CSS to make it online and look good.`,
         BooImg: "/images/Screenshot_2018-12-21 Tic Tac BOO.jpg",
-        BooLink: ""
+        BooLink: "https://dannyp123.github.io/Tic-Tac-BOO/"
         },
         {
             title: "Temp-Converting",
