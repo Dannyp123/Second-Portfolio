@@ -88,9 +88,14 @@
                         </section>
                         {{else if project.BooImg}}
                         <section  class="d-flex justify-content-around">
-                            <a href="{{projects.BooLink}}" target="_blank">
-                                <img class="col-sm-4 col-lg-4" src="{{BooImg}}">
-                                
+                            <a href="{{project.BooLink}}" target="_blank">
+                                <img class="col-sm-4 col-lg-4" src="{{project.BooImg}}">
+                            </a>
+                        </section>
+                        {{else if project.postImg}}
+                        <section class="d-flex justify-content-around">
+                            <a href="{{project.postLink}}" target="_blank">
+                                <img class="col-sm-4 col-lg-4 mt-4" src="{{project.postImg}}">
                             </a>
                         </section>
                         {{else}}
