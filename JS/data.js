@@ -6,7 +6,9 @@ const PROJECTS = {
             description: `This is a webpage that I would say is my first real webpage. I decided to see if I could
         make a webpage for my place of work. The reason why is because I needed the practice, there
         is not anything new online about the store I work at, and because I enjoy Front-end work.
-        Hopefully, I can get it pushed on a real domain name.`
+        Hopefully, I can get it pushed on a real domain name.`,
+            img: "/images/Screenshot from 2018-12-21 10-04-19.png",
+            pageLink: "https://dannyp123.github.io/Dunns-Country-Store/"
         },
         {
             title: "Blog Post",
@@ -21,7 +23,9 @@ const PROJECTS = {
             description: `This is a JavaScript program that I made that is supposed to be the game Tic-Tac-Toe. I made it a
         Halloween theme since when I made it, it was close to halloween. I used a spooky background image
         and unique game pieces. Using HTML
-        and CSS to make it online and look good.`
+        and CSS to make it online and look good.`,
+        BooImg: "/images/Screenshot_2018-12-21 Tic Tac BOO.jpg",
+        BooLink: ""
         },
         {
             title: "Temp-Converting",
@@ -69,7 +73,9 @@ const PROJECTS = {
             that is in between a given range of numbers, and tells you if you need to guess higher
             or
             lower
-            and quits if you get the correct number.`
+            and quits if you get the correct number.`,
+            videoLink: "https://asciinema.org/a/mHyUI2mn0jStHY1JddkiiwJ5y",
+            videoImg: "https://asciinema.org/a/mHyUI2mn0jStHY1JddkiiwJ5y.svg"
         },
         {
             title: "rental_store_danielpeterson",
@@ -82,7 +88,9 @@ const PROJECTS = {
             store. It prompts the user to choose a tool and calculates the total tax plus a 10%
             deposit
             for
-            a rental fee.`
+            a rental fee.`,
+            videoLink: "https://asciinema.org/a/MrVKnicyooiUc3iOol4t7X7Wc",
+            videoImg: "https://asciinema.org/a/MrVKnicyooiUc3iOol4t7X7Wc.svg"
         },
 
     ]
