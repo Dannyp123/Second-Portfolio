@@ -1,5 +1,17 @@
 const PROJECTS = {
     projects: [{
+        title: "ESPN Player Input Stats",
+        projectLink: "https://github.com/Dannyp123/ESPN-Statistic-Slid-Box",
+        langs: "Vanilla HTML, Vanilla CSS, Vanilla JavaScript",
+        description: `
+            In my coding class, we where allowed time to work on a project that we wanted to make, either using new technology, or using already know technology in a new way. My goal was to showcase my front-end passion with making a input system that changes the DOM.
+        `,
+        img: "/images/Screenshot from 2019-02-14 16-20-03.png"
+    },
+        
+        
+        
+        {
             title: "Dunn's Country Store",
             projectLink: "https://github.com/Dannyp123/Dunns-Country-Store",
             langs: "HTML, CSS, Bootstrap",
@@ -39,7 +51,7 @@ const PROJECTS = {
         learning JavaScript and wanted
         to apply it to my work so that I could further my knowledge. Although, my instructor did
         assist
-        me some, but I finished it on my own.`
+        me some, but I finished it on my own.`,
         },
         {
             title: "DannypCSS",
