@@ -6,7 +6,7 @@ const PROJECTS = {
         description: `
             In my coding class, we where allowed time to work on a project that we wanted to make, either using new technology, or using already know technology in a new way. My goal was to showcase my front-end passion with making a input system that changes the DOM.
         `,
-        img: "/images/Screenshot from 2019-02-14 16-20-03.png"
+        img: "/images/Screenshot from 2019-02-21 08-59-25.png"
     },
         
         
@@ -90,8 +90,8 @@ const PROJECTS = {
             or
             lower
             and quits if you get the correct number.`,
-            videoLink: "https://asciinema.org/a/mHyUI2mn0jStHY1JddkiiwJ5y",
-            videoImg: "https://asciinema.org/a/mHyUI2mn0jStHY1JddkiiwJ5y.svg"
+            videoLink: "https://asciinema.org/a/IOFeivcRaH2c4QFkWe8Lc1VJe",
+            videoImg: "https://asciinema.org/a/IOFeivcRaH2c4QFkWe8Lc1VJe.svg"
         },
         {
             title: "rental_store_danielpeterson",
@@ -105,8 +105,8 @@ const PROJECTS = {
             deposit
             for
             a rental fee.`,
-            videoLink: "https://asciinema.org/a/MrVKnicyooiUc3iOol4t7X7Wc",
-            videoImg: "https://asciinema.org/a/MrVKnicyooiUc3iOol4t7X7Wc.svg"
+            videoLink: "https://asciinema.org/a/XVRI0ApfqB2HUdQDko7Rsg2cI",
+            videoImg: "https://asciinema.org/a/XVRI0ApfqB2HUdQDko7Rsg2cI.svg"
         },
 
     ]
