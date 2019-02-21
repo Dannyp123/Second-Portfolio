@@ -12,8 +12,8 @@ function aboutMeTemplate() {
     roll
     in
     my success in High School. I was accepted into both North West Community College and Holms
-    Community College, but Base Camp was the closest to home.
-        went to school with a few Base Camp graduates. For
+    Community College hoping to study Graphic Design, but Base Camp was the closest to home.
+        I went to school with a few Base Camp graduates. For
         example, Keegan
         Faustin,
         Milttreonna Owens, Nicole Shelton, and Jacob Spence. They are another reason I choose to
