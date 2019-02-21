@@ -2,11 +2,11 @@ const PROJECTS = {
     projects: [{
         title: "ESPN Player Input Stats",
         projectLink: "https://github.com/Dannyp123/ESPN-Statistic-Slid-Box",
-        langs: "Vanilla HTML, Vanilla CSS, Vanilla JavaScript",
+        langs: "HTML, CSS, JavaScript, and Bootstrap",
         description: `
-            In my coding class, we where allowed time to work on a project that we wanted to make, either using new technology, or using already know technology in a new way. My goal was to showcase my front-end passion with making a input system that changes the DOM.
+            In my coding class, we where allowed time to work on a project that we wanted to make, either using new technology, or using already know technology in a new way. My goal was to showcase my front-end passion with making a football stat input system that changes the DOM with the input values. 
         `,
-        img: "/images/Screenshot from 2019-02-21 08-59-25.png"
+        img: "/images/Screenshot from 2019-02-21 11-23-22.png"
     },
         
         
@@ -19,7 +19,7 @@ const PROJECTS = {
         make a webpage for my place of work. The reason why is because I needed the practice, there
         is not anything new online about the store I work at, and because I enjoy Front-end work.
         Hopefully, I can get it pushed on a real domain name.`,
-            img: "/images/Screenshot from 2018-12-21 10-04-19.png",
+            img: "/images/Screenshot from 2019-02-21 11-26-46.png",
             pageLink: "https://dannyp123.github.io/Dunns-Country-Store/"
         },
         {
