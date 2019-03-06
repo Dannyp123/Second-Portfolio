@@ -15,7 +15,7 @@
     <link rel="shortcut icon" href="/favicons/projects-favicon.png" type="shortcut icon">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js"
         defer></script>
-    <script src="/JS/data.js" defer></script>
+    <script src="/JS/projectsData.js" defer></script>
     <script src="/JS/handleBarsTemplates.js" defer></script>
 
 </head>
@@ -53,7 +53,7 @@
             </ul>
         </div>
     </nav>
-    <div class="myContainer"  id="projectsTemplate"></div>
+    <div class="myContainer" id="projectsTemplate"></div>
     <script id="projects" type="text/x-handlebars-template">
         <div class="entry" id="my-projects">
                 <ul class="container mt-5">
@@ -84,19 +84,15 @@
                         <a href="{{project.videoLinkTwo}}" target="_blank"><img class="col-sm-4 col-lg-4 mt-4"  src="{{project.videoImgTwo}}" /></a>
                         {{else if project.img}}
                         <section class="d-flex justify-content-around">
-                            <a href="{{project.pageLink}}" target="_blank" ><img class="col-sm-4 col-lg-4 mt-4" src="{{project.img}}"></a>
+                            <img class="col-sm-4 col-lg-4 mt-4" src="{{project.img}}">
                         </section>
                         {{else if project.BooImg}}
                         <section  class="d-flex justify-content-around">
-                            <a href="{{project.BooLink}}" target="_blank">
                                 <img class="col-sm-4 col-lg-4" src="{{project.BooImg}}">
-                            </a>
                         </section>
                         {{else if project.postImg}}
                         <section class="d-flex justify-content-around">
-                            <a href="{{project.postLink}}" target="_blank">
                                 <img class="col-sm-4 col-lg-4 mt-4" src="{{project.postImg}}">
-                            </a>
                         </section>
                         {{else}}
                         <section class="d-flex justify-content-around">
