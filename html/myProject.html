@@ -79,24 +79,24 @@
                             {{project.description}}
                         </h5>
                         {{#if project.videoLink}}
-                        <a href="{{project.videoLink}}" target="_blank"><img class="col-sm-4 col-lg-4 mt-4"    src="{{project.videoImg}}" /></a>
+                        <a href="{{project.videoLink}}" target="_blank"><img class="col-lg-4 mt-4"    src="{{project.videoImg}}" /></a>
                         {{else if project.videoLink}}
-                        <a href="{{project.videoLinkTwo}}" target="_blank"><img class="col-sm-4 col-lg-4 mt-4"  src="{{project.videoImgTwo}}" /></a>
+                        <a href="{{project.videoLinkTwo}}" target="_blank"><img class="col-lg-4 mt-4"  src="{{project.videoImgTwo}}" /></a>
                         {{else if project.img}}
-                        <section class="d-flex justify-content-around">
-                            <img class="col-sm-4 col-lg-4 mt-4" src="{{project.img}}">
+                        <section>
+                            <img class="col-lg-4 mt-4" src="{{project.img}}">
                         </section>
                         {{else if project.BooImg}}
-                        <section  class="d-flex justify-content-around">
-                                <img class="col-sm-4 col-lg-4" src="{{project.BooImg}}">
+                        <section>
+                                <img class="col-lg-4" src="{{project.BooImg}}">
                         </section>
                         {{else if project.postImg}}
-                        <section class="d-flex justify-content-around">
-                                <img class="col-sm-4 col-lg-4 mt-4" src="{{project.postImg}}">
+                        <section>
+                                <img class="col-lg-4 mt-4" src="{{project.postImg}}">
                         </section>
                         {{else}}
                         <section class="d-flex justify-content-around">
-                            <img src="/images/noVideo.jpeg" class="col-sm-4 col-lg-4 mt-4">
+                            <img src="/images/noVideo.jpeg" class="col-lg-4 mt-4">
                         </section>
                         {{/if}}
                     </li>
