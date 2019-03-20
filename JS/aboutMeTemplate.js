@@ -3,25 +3,8 @@ function aboutMeTemplate() {
     var template = Handlebars.compile(source);
     var html = template({
         body: `
-        I was born in Oxford M.S. and was raised in Water
-        Valley, M.S which is where I graduated high
-    school from. I was
-    8th
-    in my graduating class
-    with a GPA of 3.89. I was nominated to Base Camp by my teacher, Micheal Howland, who played a
-    roll
-    in
-    my success in High School. I was accepted into both North West Community College and Holms
-    Community College hoping to study Graphic Design, but Base Camp was the closest to home.
-        I went to school with a few Base Camp graduates. For
-        example, Keegan
-        Faustin,
-        Milttreonna Owens, Nicole Shelton, and Jacob Spence. They are another reason I choose to
-        further my
-        education
-        at Base Camp. Although, I never had that much interest in computers before Base Camp. It was
-        not until I looked up and seen what Computer Science and programming was and that was when I
-        decided to pursue this feild and set my goals. With that being said, I am also passionate for
+        I enjoy learning new technologies and apply them to work well on a team. A few include: Python, HTML, CSS, JavaScript and Java. I look forward to becoming a front-end developer and working hard at a good company.
+        I am also passionate for
         my learning and will
         not stop till I reach my
         goals.
