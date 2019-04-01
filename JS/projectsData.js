@@ -1,5 +1,16 @@
 const PROJECTS = {
     projects: [{
+            title: "BCCA Job Posting",
+            projectLink: "https://github.com/Dannyp123/Base-Camp-Job-Search",
+            langs: "HTML/CSS, JavaScript, Python, Django, SQlite, Bootstrap",
+            description: `
+            This is a application that is the second to last project in Base Camp. It is done in Django. It allows a user to read job postings, read comments for each, and the details for it. An admin can make jobs, comment on jobs, and delete jobs.
+
+            `,
+            img: "/images/Screenshot from 2019-04-01 13-36-08.png"
+        },
+
+        {
             title: "BCCA Student Applying Application",
             projectLink: "https://github.com/Dannyp123/bcca-student-application-spring",
             langs: "HTML, CSS, JavaScript, Java, Bootstrap, and Spring",
@@ -71,12 +82,6 @@ const PROJECTS = {
         made this
         to be able to be used with anyone who wants to use it. It uses the same ideas as bootstrap,
         mine has different class names`
-        },
-        {
-            title: "Playing Card Store",
-            projectLink: "https://github.com/Dannyp123/Playing-Card-Store",
-            langs: "HTML, JS, CSS, Bootstrap",
-            description: `This is a webpage that I started at home during Thanksgiving. It is a pretty simple page. I used all Bootstrap on this application. It is a online store that sells playing cards`
         },
         {
             title: "Github-Full-Project",
