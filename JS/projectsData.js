@@ -1,5 +1,15 @@
 const PROJECTS = {
-    projects: [{
+    projects: [
+        {
+            title: "Buy-a-Ride",
+            projectLink: "https://github.com/Dannyp123/Django-Car-Store",
+            langs: "HTML/CSS, Python, Django, SQite, Bootstrap, Materilized CSS",
+            description: `
+            This independent application is a Django, full stack application. It shows off cars for sale and the details for each. The goal of this application was to get more independent work under my belt, and I want to dedicate more time to development outside of school. 
+            `,
+            img: "/images/Screenshot_2019-04-12 Buy-A-Ride.png"
+        },
+        {
             title: "BCCA Job Posting",
             projectLink: "https://github.com/Dannyp123/Base-Camp-Job-Search",
             langs: "HTML/CSS, JavaScript, Python, Django, SQlite, Bootstrap",
@@ -73,15 +83,6 @@ const PROJECTS = {
         to apply it to my work so that I could further my knowledge. Although, my instructor did
         assist
         me some, but I finished it on my own.`,
-        },
-        {
-            title: "DannypCSS",
-            projectLink: "https://github.com/Dannyp123/DannyCSS",
-            langs: "HTML, DannyCSS",
-            description: `This project is a CSS and HTML file that I made at home. It is my version of bootstrap. I
-        made this
-        to be able to be used with anyone who wants to use it. It uses the same ideas as bootstrap,
-        mine has different class names`
         },
         {
             title: "Github-Full-Project",
