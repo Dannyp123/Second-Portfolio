@@ -6,6 +6,13 @@
   border-radius: 50%;
 }
 
+@media only screen and (min-width: 600px) {
+  .dunnsImg {
+    width: 125px;
+    height: 300px;
+  }
+}
+
 .myContainer {
   position: relative;
   -webkit-animation-name: comeIn;
@@ -26,6 +33,3 @@
 
   }
 }
-/* .tabUp {
-
-} */ 
