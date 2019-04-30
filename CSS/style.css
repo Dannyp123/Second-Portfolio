@@ -6,20 +6,27 @@
   border-radius: 50%;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
   .dunnsImg {
-    width: 125px;
-    height: 300px;
+    width: 637px !important;
+    height: 350px !important;
   }
 }
+
+/* @media only screen and (min-width: 600px) and (max-width: 1080px) {
+  .dunnsImg {
+    width: 750px !important;
+    height: 350px !important;
+  }
+} */
 
 .myContainer {
   position: relative;
   -webkit-animation-name: comeIn;
-  -webkit-animation-duration: .5s;
+  -webkit-animation-duration: 0.5s;
   -webkit-animation-timing-function: ease-in-out;
   animation-name: comeIn;
-  animation-duration: .5s;
+  animation-duration: 0.5s;
 }
 
 @keyframes comeIn {
@@ -30,6 +37,5 @@
 
   100% {
     left: 0px;
-
   }
 }
