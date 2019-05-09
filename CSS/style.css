@@ -6,19 +6,25 @@
   border-radius: 50%;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .dunnsImg {
     width: 637px !important;
     height: 350px !important;
   }
+  .about-me {
+    width: 325px !important;
+  }
 }
 
-/* @media only screen and (min-width: 600px) and (max-width: 1080px) {
-  .dunnsImg {
-    width: 750px !important;
-    height: 350px !important;
+@media only screen and (max-width: 650px) {
+  .about-me {
+    width: 255px !important;
   }
-} */
+  .dunnsImg {
+    width: 230px !important;
+    /* height: 350px !important; */
+  }
+}
 
 .myContainer {
   position: relative;
