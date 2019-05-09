@@ -1,5 +1,14 @@
 const PROJECTS = {
-  projects: [
+  projects: [{
+      title: "Dunn's Country Store Table Reservations",
+      projectLink: "https://github.com/Dannyp123/Dunns-Country-Store-table-reservation",
+      langs: "HTML/CSS, Python, Django, Postgresql, Materilized CSS, Send Grid API, Google API",
+      description: `
+      This project is my Base Camp final. It is a newest version of my preexisting Dunn's Country Store page. I added a backend to allow people to reserve tablels in the store. I used Django's Registration and Login/logout features. I also used Send Grids API to send pregenerated emails to users, and Google Maps API to show a Google Maps view of the location.
+      `,
+      img: "/images/table-reservation-project.png",
+      pageLink: "https://dunns-country-store.herokuapp.com/"
+    },
     {
       title: "Buy-a-Ride",
       projectLink: "https://github.com/Dannyp123/Django-Car-Store",
@@ -22,8 +31,7 @@ const PROJECTS = {
 
     {
       title: "BCCA Student Applying Application",
-      projectLink:
-        "https://github.com/Dannyp123/bcca-student-application-spring",
+      projectLink: "https://github.com/Dannyp123/bcca-student-application-spring",
       langs: "HTML, CSS, JavaScript, Java, Bootstrap, and Spring",
       description: `
             This is a project where I was in a team of three people, and we where given a task of making a full stack application. Everything from a database to the templates to show the user.
