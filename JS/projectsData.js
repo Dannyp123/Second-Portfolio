@@ -1,5 +1,13 @@
 const PROJECTS = {
   projects: [{
+      title: "VFW Post 4100 Website",
+      projectLink: "https://github.com/Dannyp123/VFW-Post-4100",
+      langs: "HTML/CSS, Python, Django, Postgresql, Materillized CSS, Google API",
+      description: "This project is a webpage I got paid to do for the VFW Post 4100. I am hosting it on Heroku, but it is registered at www.vfwpost4100.com. It allows for a webmaster to login and add upcoming events and then delete them as the events happen. It also orders the events by most recent.",
+      img: "/images/vfwpageimg.png",
+      pageLink: "http://www.vfwpost4100.com/"
+    },
+    {
       title: "Dunn's Country Store Table Reservations",
       projectLink: "https://github.com/Dannyp123/Dunns-Country-Store-table-reservation",
       langs: "HTML/CSS, Python, Django, Postgresql, Materilized CSS, Send Grid API, Google API",
